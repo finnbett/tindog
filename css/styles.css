@@ -18,7 +18,8 @@
 }
 h2 {
 	font-family: 'Ubuntu', sans-serif;
-    font-family: "Montserrat-Black";
+    /* font-family: "Montserrat-Black"; */
+	font-weight: bold;
 	font-size: 3rem;
 	line-height: 5rem;
 	padding-bottom: 3rem;
@@ -117,4 +118,28 @@ nav {
 .press-image {
 	margin-left: 5rem;
 	margin-right: 5rem;
+}
+
+.card-body {
+	text-align: center;
+}
+
+.card-header {
+	text-align: center;
+}
+
+.pricing {
+	padding: 100px;
+}
+
+.sign-up {
+	margin-top: 2rem;
+}
+
+.price-block {
+	padding: 4rem;
+}
+
+#pricing{
+	padding: 7% 10%;
 }

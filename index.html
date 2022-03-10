@@ -10,7 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Goldman&family=Ubuntu:wght@300&display=swap" rel="stylesheet"> 
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Goldman&family=Montserrat:wght@100&family=Ubuntu:wght@300&display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Goldman&family=Montserrat:wght@600&family=Ubuntu:wght@300&display=swap" rel="stylesheet"> 
   <link rel="stylesheet" href="css/styles.css">
   <script src="https://kit.fontawesome.com/142a7d352d.js" crossorigin="anonymous"></script>
   
@@ -27,7 +27,7 @@
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav ml-auto">
+      <ul class="navbar-nav ms-auto">
           <li class="nav-item">
               <a class="nav-link" href="">Contact</a>
           </li>
@@ -47,11 +47,11 @@
       
           <div class="col-lg-6">
             <h1 class="heading">Meet new and interesting dogs nearby.</h1>
-            <button type="button" class="btn btn-dark btn-lg"><i class="fa-brands fa-apple"></i> Download</button>
-            <button type="button" class= "btn btn-outline-light btn-lg"><i class="fa-brands fa-google-play"></i>Download</button>
+            <button type="button" class="btn btn-dark btn-lg download"><i class="fa-brands fa-apple"></i> Download</button>
+            <button type="button" class= "btn btn-outline-light btn-lg download"><i class="fa-brands fa-google-play"></i>Download</button>
           </div>
           <div class="col-lg-6">
-            <img src="images/iphone6.png" alt="iphone-mockup">
+            <img src="images/iphone6.png" class="rotate" alt="iphone-mockup">
           </div>
     </div>
 
@@ -61,18 +61,31 @@
 
   <!-- Features -->
 
-  <section id="features">
+  <section id="features" class="row">
+		<div class="col-lg-4 features-block">
 
-    <h3>Easy to use.</h3>
-    <p>So easy to use, even your dog could do it.</p>
+      <i class="fa-solid fa-heart caption-icon"></i>
+			<h3 class="caption-heading"></i>Easy to use.</h3>
+			<p class="caption-sub">So easy to use, even your dog could do it.</p>
 
-    <h3>Elite Clientele</h3>
-    <p>We have all the dogs, the greatest dogs.</p>
+		</div>
 
-    <h3>Guaranteed to work.</h3>
-    <p>Find the love of your dog's life or your money back.</p>
+		<div class="col-lg-4 features-block">
 
-  </section>
+      <i class="fa-solid fa-bullseye caption-icon"></i>
+			<h3 class="caption-heading"></i>Elite Clientele</h3>
+			<p class="caption-sub">We have all the dogs, the greatest dogs.</p>
+
+		</div>    
+
+		<div class="col-lg-4 features-block">
+
+      <i class="fa-solid fa-circle-check caption-icon"></i>
+			<h3 class="caption-heading">Guaranteed to work.</h3>
+			<p class="caption-sub">Find the love of your dog's life or your money back.</p>
+
+		</div>	
+	</section>
 
 
   <!-- Testimonials -->

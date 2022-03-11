@@ -1,6 +1,8 @@
 #title {
     background-color: #ff4c68;
     color: #fff;
+	z-index: -10;
+	padding-bottom: 8rem;
 }
 .container-fluid {
 	padding: 3% 15%;
@@ -37,7 +39,9 @@ h3 {
 
 .rotate {
 	transform: rotate(10deg);
-	width: 60%;
+	width: 25%;
+	position: absolute;
+	z-index: 1;
 }
 section {
 	font-family:'Montserrat'
@@ -89,10 +93,13 @@ nav {
 }
 
 #features {
-	margin-top: 5rem;
-	margin-left: 3rem;
-	margin-right: 3rem;
-	margin-bottom: 5rem;
+	padding-top: 10rem;
+	padding-left: 3rem;
+	padding-right: 3rem;
+	padding-bottom: 10rem;
+	background-color: #fff;
+	position: relative;
+	z-index: 2;
 }
 
 #testimonials {
@@ -100,6 +107,7 @@ nav {
 	text-align: center;
 	background-color: #ff4c68;
 	color: #fff;
+	z-index: 2;
 
 }
 
@@ -141,5 +149,54 @@ nav {
 }
 
 #pricing{
-	padding: 7% 10%;
+	padding: 2% 10%;
 }
+
+.pricing-sub {
+	margin-bottom: 3rem;
+}
+
+#cta {
+	background-color: #ff4c68;
+	text-align: center;
+	padding: 7% 15%;
+}
+
+.cta-heading {
+	padding-bottom: 5rem;
+	font-size: 3rem;
+	color: #fff;
+	font-weight: bold;
+}
+
+.cat-button {
+	margin-right: 3rem;
+}
+
+#footer {
+	text-align: center;
+	padding: 9% 15%;
+}
+
+.footer-icon {
+	padding-left: 3rem;
+	font-size: 2rem;
+	padding-right: 3rem;
+}
+
+.footer-text {
+	margin-top: 3rem;
+	color: grey;
+}
+
+@media (max-width: 1100px) {
+	.title {
+		text-align: center;
+	}
+	.rotate {
+		position: static;
+		transform: rotate(0);
+	}
+	
+}
+
